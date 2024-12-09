@@ -1,10 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
-<script>
-  hbspt.forms.create({
-    portalId: "43669043",
-    formId: "a24ce812-e226-4812-a13e-66c64566e520"
-  });
-</script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HubSpot Form</title>
+    <script charset="utf-8" type="text/javascript" src="https://js.hsforms.net/forms/embed/v2.js"></script>
+</head>
+<body>
+    <!-- Target Container for the HubSpot Form -->
+    <div id="hubspot-form"></div>
+
+    <!-- Script to Embed the HubSpot Form -->
+    <script>
+        hbspt.forms.create({
+            portalId: "43669043",
+            formId: "a24ce812-e226-4812-a13e-66c64566e520",
+            target: "#hubspot-form"
+        });
+    </script>
+</body>
 </html>
