@@ -14,13 +14,12 @@ export default function About() {
 
         <FadeUp delay={0.08}>
           <p className="text-[#888] text-lg leading-relaxed mb-5">
-            I&apos;m a BSE candidate in Computer Science at the University of Pennsylvania
-            (GPA: 3.93), passionate about building reliable, scalable backend systems
+            I&apos;m a BSE candidate in Computer Science at the University of Pennsylvania, and I'm passionate about building reliable, scalable backend systems
             and full-stack applications.
           </p>
           <p className="text-[#888] text-lg leading-relaxed mb-10">
-            From founding engineering roles at YC-backed startups to ML research published
-            in IEEE and Journal of Power Sources, I thrive at the intersection of technical
+            From founding engineering roles at startups to ML research published
+            in IEEE, I'm interested in the intersection of technical
             depth and real-world impact.
           </p>
         </FadeUp>
