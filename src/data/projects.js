@@ -26,14 +26,4 @@ export const projects = [
     github: 'https://github.com/j-chen005/buy-sell-helper',
     live: 'https://helpful-salamander-77ba6e.netlify.app',
   },
-  {
-    id: 4,
-    name: 'Polar Bear Detection via Synthetic Data',
-    description:
-      'Novel endangered species tracking approach generating 1.5M+ synthetic satellite images in Blender to train object detection models with 90%+ accuracy. Published at IEEE ICARCE Conference.',
-    tech: ['Python', 'Blender', 'YOLO', 'Jupyter Notebook'],
-    github: 'https://github.com/j-chen005/Polar-Bears-Synthetic-Data',
-    live: null,
-    isPaper: true,
-  },
 ];

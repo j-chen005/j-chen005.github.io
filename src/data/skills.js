@@ -5,10 +5,10 @@ export const skills = [
   },
   {
     category: 'Frameworks & Libraries',
-    items: ['React', 'Next.js', 'Svelte', 'Flask', 'Node.js', 'Express'],
+    items: ['React', 'Next.js', 'Svelte', 'Flask', 'Node.js', 'Tailwind CSS'],
   },
   {
     category: 'Cloud & Tools',
-    items: ['Google Cloud Platform', 'Supabase', 'Git', 'Vite', 'Netlify'],
+    items: ['Google Cloud Platform', 'Supabase', 'Docker', 'Vercel'],
   },
 ];

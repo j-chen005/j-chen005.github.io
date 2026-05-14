@@ -39,7 +39,7 @@ export default function Experience() {
                 <div className="border border-white/[0.07] bg-surface/40 p-6 sm:p-7 hover:border-white/[0.14] transition-colors duration-300 group">
                   <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-1 mb-3">
                     <div>
-                      <h3 className="text-white font-medium text-base group-hover:text-accent transition-colors duration-300">
+                      <h3 className="text-white font-medium text-base">
                         {item.company}
                         {item.companyNote && (
                           <span className="text-[#555] font-normal text-sm ml-2">

@@ -5,9 +5,6 @@ export default function Footer() {
         <p className="text-[#3a3a3a] text-xs tracking-wider">
           © {new Date().getFullYear()} Justin Chen
         </p>
-        <p className="text-[#3a3a3a] text-xs tracking-wider">
-          Designed & built with React
-        </p>
       </div>
     </footer>
   );

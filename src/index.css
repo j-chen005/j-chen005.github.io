@@ -11,6 +11,13 @@
   body {
     @apply bg-bg text-white font-sans antialiased;
     overflow-x: hidden;
+    user-select: none;
+    cursor: default;
+  }
+
+  a, button {
+    cursor: pointer;
+    user-select: auto;
   }
 
   ::selection {
