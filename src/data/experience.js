@@ -1,17 +1,6 @@
 export const experience = [
   {
     id: 1,
-    company: 'Hack4Impact',
-    companyNote: 'University of Pennsylvania',
-    role: 'Product Manager & Technical Lead',
-    period: 'Sep 2025 – Present',
-    location: 'Philadelphia, PA',
-    bullets: [
-      'Created interactive learning module platform to train coaches for trauma-informed violence prevention programs',
-    ],
-  },
-  {
-    id: 2,
     company: 'Sales Patriot',
     companyNote: 'YCombinator W25',
     role: 'Founding Full-Stack Engineer (Forward Deployed)',
@@ -24,7 +13,7 @@ export const experience = [
     ],
   },
   {
-    id: 3,
+    id: 2,
     company: 'Boys with the Bus LLC',
     role: 'Co-Founder',
     period: 'May 2024 – Mar 2025',
@@ -34,9 +23,8 @@ export const experience = [
     ],
   },
   {
-    id: 4,
+    id: 3,
     company: 'Pacific Northwest National Laboratory',
-    companyNote: 'PNNL',
     role: 'Machine Learning Researcher',
     period: 'Jun 2023 – Sep 2024',
     bullets: [
@@ -45,9 +33,9 @@ export const experience = [
     ],
   },
   {
-    id: 5,
-    company: 'Cognitive States Lab Group',
-    companyNote: 'Boston College & Stony Brook University',
+    id: 4,
+    company: 'Boston College',
+    companyNote: 'Cognitive States Lab Group',
     role: 'Research Assistant',
     period: 'Jun 2023 – Apr 2024',
     bullets: [

@@ -8,7 +8,7 @@ export default function About() {
         <FadeUp>
           <p className="text-accent text-xs tracking-[0.3em] uppercase mb-4">01. About</p>
           <h2 className="font-serif text-4xl md:text-5xl text-white mb-8 leading-tight">
-            Building things that matter.
+            A brief introduction.
           </h2>
         </FadeUp>
 

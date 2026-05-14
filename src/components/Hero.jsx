@@ -16,6 +16,10 @@ export default function Hero() {
 
   const scrollToAbout = () =>
     document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' });
+  const scrollToProjects = () =>
+    document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' });
+  const scrollToContact = () =>
+    document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
 
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden">
@@ -66,19 +70,17 @@ export default function Hero() {
               className="flex flex-wrap items-center gap-4"
             >
               <button
-                onClick={scrollToAbout}
+                onClick={scrollToProjects}
                 className="px-8 py-3 border border-accent text-accent text-xs tracking-[0.2em] uppercase hover:bg-accent hover:text-bg transition-all duration-300 font-medium"
               >
-                View Work
+                View Projects
               </button>
-              <a
-                href="/resume.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
+              <button
+                onClick={scrollToContact}
                 className="px-8 py-3 border border-white/15 text-white/50 text-xs tracking-[0.2em] uppercase hover:border-white/50 hover:text-white/90 transition-all duration-300"
               >
-                Resume ↓
-              </a>
+                Contact Me
+              </button>
             </motion.div>
           </div>
 
