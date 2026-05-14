@@ -58,7 +58,7 @@ function CardInner({ project, clickable }) {
 export default function Projects() {
   return (
     <section id="projects" className="relative z-10 py-28 px-6 sm:px-10">
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-5xl mx-auto">
         <FadeUp>
           <p className="text-accent text-xs tracking-[0.3em] uppercase mb-4">03. Projects</p>
           <h2 className="font-serif text-4xl md:text-5xl text-white mb-16 leading-tight">

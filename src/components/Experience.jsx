@@ -5,7 +5,7 @@ import { experience } from '../data/experience';
 export default function Experience() {
   return (
     <section id="experience" className="relative z-10 py-28 px-6 sm:px-10">
-      <div className="max-w-4xl mx-auto">
+      <div className="max-w-5xl mx-auto">
         <FadeUp>
           <p className="text-accent text-xs tracking-[0.3em] uppercase mb-4">02. Experience</p>
           <h2 className="font-serif text-4xl md:text-5xl text-white mb-16 leading-tight">

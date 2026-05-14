@@ -4,7 +4,7 @@ import FadeUp from './FadeUp';
 export default function Contact() {
   return (
     <section id="contact" className="relative z-10 py-32 px-6 sm:px-10">
-      <div className="max-w-3xl mx-auto text-center">
+      <div className="max-w-5xl mx-auto text-center">
         <FadeUp>
           <p className="text-accent text-xs tracking-[0.3em] uppercase mb-4">05. Contact</p>
           <h2 className="font-serif text-4xl md:text-6xl text-white mb-6 leading-tight">

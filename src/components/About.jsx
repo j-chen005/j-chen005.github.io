@@ -4,7 +4,7 @@ import FadeUp from './FadeUp';
 export default function About() {
   return (
     <section id="about" className="relative z-10 py-32 px-6 sm:px-10">
-      <div className="max-w-3xl mx-auto">
+      <div className="max-w-5xl mx-auto">
         <FadeUp>
           <p className="text-accent text-xs tracking-[0.3em] uppercase mb-4">01. About</p>
           <h2 className="font-serif text-4xl md:text-5xl text-white mb-8 leading-tight">
