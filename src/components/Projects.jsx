@@ -6,6 +6,16 @@ import { projects } from '../data/projects';
 function CardInner({ project, clickable }) {
   return (
     <>
+      {project.image && (
+        <div className="mb-5 flex justify-center">
+          <img
+            src={project.image}
+            alt={`${project.name} preview`}
+            className="w-[92%] max-w-full h-auto rounded border border-white/[0.08] block"
+          />
+        </div>
+      )}
+
       <div className="flex items-start justify-between mb-4">
         <div className="flex items-center gap-2">
           {project.isPaper ? (
@@ -68,8 +78,8 @@ export default function Projects() {
 
         <div className="grid sm:grid-cols-2 gap-5">
           {projects.map((project, i) => {
-            const baseClasses = 'relative border border-white/[0.07] bg-surface/30 p-7 flex flex-col transition-all duration-300';
-
+            const baseClasses =
+              'relative border border-white/[0.07] bg-surface/30 p-7 flex flex-col transition-all duration-300 overflow-hidden';
             return (
               <motion.div
                 key={project.id}

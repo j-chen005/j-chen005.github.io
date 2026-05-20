@@ -25,5 +25,6 @@ export const projects = [
     tech: ['Svelte', 'OpenAI', 'RapidAPI', 'Netlify'],
     github: 'https://github.com/j-chen005/buy-sell-helper',
     live: 'https://helpful-salamander-77ba6e.netlify.app',
+    image: '/projects/market-aid.png',
   },
 ];
